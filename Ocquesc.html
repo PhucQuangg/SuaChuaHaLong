@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sữa Chua Trân Châu Hạ Long Cs178</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.2.0/css/fork-awesome.min.css" integrity="sha256-XoaMnoYC5TH6/+ihMEnospgm0J1PM/nioxbOUdnM8HY=" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Dancing+Script:wght@600&family=Kanit&family=Lora:wght@500;600&family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="path/to/fork-awesome/css/fork-awesome.min.css">
+    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="templates/fontawesome-free-6.5.2-web/fontawesome-free-6.5.2-web/css/all.min.css">
+
+</head>
+<body>
+    <div class="menu-bar"> 
+        <div class="menu-bar-content">
+            <input type="checkbox" id="check">
+            <label for="check">
+                <i class="fa-sharp fa-solid fa-bars" id="btn"></i>
+            </label>
+            <ul class="menu">
+
+                <li ><a href="index.html"><i class="fa-solid fa-house"></i> Trang Chủ</a></li>
+                <li class="menu-item"><a href="#"><i class="fa-solid fa-list"></i> Danh Mục</a>
+                    <div class="submenu">
+                        <ul class="submenu-items">
+                            <li><a href="Trang1SC.html">Sữa Chua</a></li>
+                            <li><a href="SCSayLanh.html">Sữa Chua Sấy Lạnh</a></li>
+                            <li><a href="Ocquesc.html">Ốc Quế Sữa Chua</a></li>
+                            <li><a href="Tra.html">Trà Sữa</a></li>
+                            <li><a href="Topping.html">Topping</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li ><a href="gioithieu.html"><i class="fa-solid fa-info"></i> Giới Thiệu</a></li>
+                <li ><a href="lienhe.html"><i class="fa-regular fa-address-card"></i> Liên Hệ</a></li>
+                
+            </ul>
+        </div>
+    </diV>
+    <div class="banner-SC">
+        <img src="images/background.jpg" alt="">
+    </div>
+       <div class="to-bottom2">
+           <a href="">
+               <img src="images/layout/to_bottom.png" alt="">
+           </a>
+       </div> 
+        <div id="left">
+            <div class="slide">
+                <div class="center-content">
+                    <div class="icons"><button><span><i class="fa-solid fa-bag-shopping"></i>Giỏ Hàng</span></button></div>
+                    <div id="SC">Menu Ốc Quế Sữa Chua</div>
+
+                    <div class="product-box" style="background-color: aliceblue; border-radius: 10px;">                        
+                        <div class="pro-box-mid">                  
+                            <div class="pro-img" onclick="showModal(event,'oc1')"><a href="#"><img src="images/OcQue/trang.jpg" alt="sctc" /></a></div>
+                            <div class="pro-title" onclick="showModal(event,'oc1')">Ốc Quế Sữa Chua Trắng</div>
+                            <div class="price" >15.000đ</div>
+                            <div class="pro-cart">
+                                <a href="#"><button ><img src="images/layout/cart.gif" width="10" height="10" /> Thêm vào giỏ</a></button>
+                            </div>                            
+                            <div style="clear:both"></div>
+                        </div>
+                        <div class="pro-box-bot" onclick="showModal(event,'oc1')"></div>
+                    </div>
+                    <div class="notification-banner" >
+                        Sản phẩm đã được thêm vào giỏ hàng thành công!
+                      </div>
+
+                    <div id="oc1" class="modal">
+                        <div class="modal-content">
+                            <span class="close" onclick="closeModal(event,'oc1')">×</span>
+                            <div><img class="product-image" src="images/OcQue/trang.jpg" alt=""></div>
+                          <div class="product-details">
+                            <h2 style="color: #3498db;">Ốc Quế Sữa Chua Trắng</h2>
+                            <div class="price2" >Giá: <span>15.000đ</span></div><br>
+                            <ul > 
+                                <li>Thành phần: Ốc Quế + Sữa Chua Trắng </li>
+                                <li>Trọng lượng sản phẩm: 50gr</li>
+                                <li>Sữa Chua Trân Châu Hạ Long là đặc sản đến từ Hạ Long. Kể từ khi thành lập chuỗi cửa hàng Sữa chua trân châu Hạ Long đã có hơn 200 cửa hàng trên khắp các tỉnh thành Việt Nam và con số này vẫn tiếp tực tăng trưởng không ngừng. Chúng tôi đang nỗ lực phát triển, để Sữa Chua Trân Châu Hạ Long có thể trở nên phổ biến hơn với khách hàng trên mảnh đất Việt Nam và trở thành một món ăn thú vị đối với khách hàng trên thế giới và mang trong mình sứ mệnh mang món ăn của dân tộc đến khắp nơi trên thế giới.</li>
+                               
+                            </ul>
+                         <label for="quantity" style="font-weight: bold;margin: 10px;">Số lượng:</label>
+                          <input type="number" id="quantity" name="quantity" min="1" max="100">
+                          <div class="pro-cart2">
+                            <button >Thêm vào giỏ hàng</button>
+                          </div>                          
+                          </div>
+                        </div>
+                        </div>
+                      
+        
+                    <div class="product-box" style="background-color: aliceblue; border-radius: 10px;">
+                        <div class="pro-box-mid">
+                            
+                            <div class="pro-img" onclick="showModal(event,'oc2')"><a href="#"><img src="images/OcQue/Vietquat.jpg" alt="sctc" /></a></div>
+                            <div class="pro-title" onclick="showModal(event,'oc2')">Ốc Quế Sữa Chua Việt Quất</div>
+                            <div class="price" >15.000đ</div>
+                            <div class="pro-cart">
+                                <a href="#"><button ><img src="images/layout/cart.gif" width="10" height="10" /> Thêm vào giỏ</a></button>
+                            </div>                             
+                            <div style="clear:both"></div>
+                        </div>
+                        <div class="pro-box-bot"  onclick="showModal(event,'oc2')"></div>
+                    </div>
+
+                    <div id="oc2" class="modal">
+                        <div class="modal-content">
+                            <span class="close" onclick="closeModal(event,'oc2')">×</span>
+                            <div><img class="product-image" src="images/OcQue/Vietquat.jpg" alt=""></div>
+                          <div class="product-details">
+                            <h2 style="color: #3498db;">Ốc Quế Sữa Chua Việt Quất</h2>
+                            <div class="price2" >Giá: <span>15.000đ</span></div><br>
+                            <ul > 
+                                <li>Thành phần: Ốc Quế + Sữa Chua Việt Quất </li>
+                                <li>Trọng lượng sản phẩm: 50gr</li>
+                                <li>Sữa Chua Trân Châu Hạ Long là đặc sản đến từ Hạ Long. Kể từ khi thành lập chuỗi cửa hàng Sữa chua trân châu Hạ Long đã có hơn 200 cửa hàng trên khắp các tỉnh thành Việt Nam và con số này vẫn tiếp tực tăng trưởng không ngừng. Chúng tôi đang nỗ lực phát triển, để Sữa Chua Trân Châu Hạ Long có thể trở nên phổ biến hơn với khách hàng trên mảnh đất Việt Nam và trở thành một món ăn thú vị đối với khách hàng trên thế giới và mang trong mình sứ mệnh mang món ăn của dân tộc đến khắp nơi trên thế giới.</li>
+                               
+                            </ul>
+                         <label for="quantity" style="font-weight: bold;margin: 10px;">Số lượng:</label>
+                          <input type="number" id="quantity" name="quantity" min="1" max="100">
+                          <div class="pro-cart2">
+                            <button >Thêm vào giỏ hàng</button>
+                          </div>                        
+                          </div>
+                        </div>
+                        </div>
+        
+                    <div class="product-box" style="background-color: aliceblue; border-radius: 10px;">
+                        <div class="pro-box-mid">
+                            
+                            <div class="pro-img"  onclick="showModal(event,'oc3')"><a href="#"><img src="images/OcQue/matcha.jpg" alt="sctc" /></a></div>
+                            <div class="pro-title"  onclick="showModal(event,'oc3')">Ốc Quế Sữa Chua Matcha</div>
+                            <div class="price" >15.000đ</div>
+                            <div class="pro-cart">
+                                <a href="#"><button ><img src="images/layout/cart.gif" width="10" height="10" /> Thêm vào giỏ</a></button>
+                            </div>                             
+                            <div style="clear:both"></div>
+                        </div>
+                        <div class="pro-box-bot"  onclick="showModal(event,'oc3')"></div>
+                    </div>
+
+                    <div id="oc3" class="modal">
+                        <div class="modal-content">
+                            <span class="close" onclick="closeModal(event,'oc3')">×</span>
+                            <div><img class="product-image" src="images/OcQue/matcha.jpg" alt=""></div>
+                          <div class="product-details">
+                            <h2 style="color: #3498db;">Ốc Quế Sữa Chua Matcha</h2>
+                            <div class="price2" >Giá: <span>15.000đ</span></div><br>
+                            <ul > 
+                                <li>Thành phần: Ốc Quế + Sữa Chua Matcha </li>
+                                <li>Trọng lượng sản phẩm: 50gr</li>
+                                <li>Sữa Chua Trân Châu Hạ Long là đặc sản đến từ Hạ Long. Kể từ khi thành lập chuỗi cửa hàng Sữa chua trân châu Hạ Long đã có hơn 200 cửa hàng trên khắp các tỉnh thành Việt Nam và con số này vẫn tiếp tực tăng trưởng không ngừng. Chúng tôi đang nỗ lực phát triển, để Sữa Chua Trân Châu Hạ Long có thể trở nên phổ biến hơn với khách hàng trên mảnh đất Việt Nam và trở thành một món ăn thú vị đối với khách hàng trên thế giới và mang trong mình sứ mệnh mang món ăn của dân tộc đến khắp nơi trên thế giới.</li>
+                               
+                            </ul>
+                         <label for="quantity" style="font-weight: bold;margin: 10px;">Số lượng:</label>
+                          <input type="number" id="quantity" name="quantity" min="1" max="100">
+                          <div class="pro-cart2">
+                            <button >Thêm vào giỏ hàng</button>
+                          </div>                        
+                          </div>
+                        </div>
+                        </div>
+        
+                    <div class="product-box" style="background-color: aliceblue; border-radius: 10px;">
+                        <div class="pro-box-mid">
+                            
+                            <div class="pro-img"  onclick="showModal(event,'oc4')"><a href="#"><img src="images/OcQue/Uni.jpg" alt="sctc" /></a></div>
+                            <div class="pro-title"  onclick="showModal(event,'oc4')">Ốc Quế Sữa Chua Unicorn</div>
+                            <div class="price" >15.000đ</div>
+                            <div class="pro-cart">
+                                <a href="#"><button ><img src="images/layout/cart.gif" width="10" height="10" /> Thêm vào giỏ</a></button>
+                            </div>                             
+                            <div style="clear:both"></div>
+                        </div>
+                        <div class="pro-box-bot"  onclick="showModal(event,'oc4')"></div>
+                    </div>
+
+                    <div id="oc4" class="modal">
+                        <div class="modal-content">
+                            <span class="close" onclick="closeModal(event,'oc4')">×</span>
+                            <div><img class="product-image" src="images/OcQue/Uni.jpg" alt=""></div>
+                          <div class="product-details">
+                            <h2 style="color: #3498db;">Ốc Quế Sữa Chua Unicorn</h2>
+                            <div class="price2" >Giá: <span>15.000đ</span></div><br>
+                            <ul > 
+                                <li>Thành phần: Ốc Quế + Sữa Chua Unicorn </li>
+                                <li>Trọng lượng sản phẩm: 50gr</li>
+                                <li>Sữa Chua Trân Châu Hạ Long là đặc sản đến từ Hạ Long. Kể từ khi thành lập chuỗi cửa hàng Sữa chua trân châu Hạ Long đã có hơn 200 cửa hàng trên khắp các tỉnh thành Việt Nam và con số này vẫn tiếp tực tăng trưởng không ngừng. Chúng tôi đang nỗ lực phát triển, để Sữa Chua Trân Châu Hạ Long có thể trở nên phổ biến hơn với khách hàng trên mảnh đất Việt Nam và trở thành một món ăn thú vị đối với khách hàng trên thế giới và mang trong mình sứ mệnh mang món ăn của dân tộc đến khắp nơi trên thế giới.</li>
+                               
+                            </ul>
+                         <label for="quantity" style="font-weight: bold;margin: 10px;">Số lượng:</label>
+                          <input type="number" id="quantity" name="quantity" min="1" max="100">
+                          <div class="pro-cart2">
+                            <button >Thêm vào giỏ hàng</button>
+                          </div>                          
+                          </div>
+                        </div>
+                        </div>
+                
+                    <div class="product-box" style="background-color: aliceblue; border-radius: 10px;">
+                        <div class="pro-box-mid">
+                            
+                            <div class="pro-img"  onclick="showModal(event,'oc5')"><a href="#"><img src="images/OcQue/Cacao.jpg" alt="sctc" /></a></div>
+                            <div class="pro-title"  onclick="showModal(event,'oc5')">Ốc Quế Sữa Chua Cacao</div>
+                            <div class="price" >15.000đ</div>
+                            <div class="pro-cart">
+                                <a href="#"><button ><img src="images/layout/cart.gif" width="10" height="10" /> Thêm vào giỏ</a></button>
+                            </div>                             
+                            <div style="clear:both"></div>
+                        </div>
+                        <div class="pro-box-bot"  onclick="showModal(event,'oc5')"></div>
+                    </div>
+
+                    <div id="oc5" class="modal">
+                        <div class="modal-content">
+                            <span class="close" onclick="closeModal(event,'oc5')">×</span>
+                            <div><img class="product-image" src="images/OcQue/Cacao.jpg" alt=""></div>
+                          <div class="product-details">
+                            <h2 style="color: #3498db;">Ốc Quế Sữa Chua Cacao</h2>
+                            <div class="price2" >Giá: <span>15.000đ</span></div><br>
+                            <ul > 
+                                <li>Thành phần: Ốc Quế + Sữa Chua Cacao </li>
+                                <li>Trọng lượng sản phẩm: 50gr</li>
+                                <li>Sữa Chua Trân Châu Hạ Long là đặc sản đến từ Hạ Long. Kể từ khi thành lập chuỗi cửa hàng Sữa chua trân châu Hạ Long đã có hơn 200 cửa hàng trên khắp các tỉnh thành Việt Nam và con số này vẫn tiếp tực tăng trưởng không ngừng. Chúng tôi đang nỗ lực phát triển, để Sữa Chua Trân Châu Hạ Long có thể trở nên phổ biến hơn với khách hàng trên mảnh đất Việt Nam và trở thành một món ăn thú vị đối với khách hàng trên thế giới và mang trong mình sứ mệnh mang món ăn của dân tộc đến khắp nơi trên thế giới.</li>
+                               
+                            </ul>
+                         <label for="quantity" style="font-weight: bold;margin: 10px;">Số lượng:</label>
+                          <input type="number" id="quantity" name="quantity" min="1" max="100">
+                          <div class="pro-cart2">
+                            <button >Thêm vào giỏ hàng</button>
+                          </div>                          
+                          </div>
+                        </div>
+                        </div>
+                    
+                    <div class="product-box" style="background-color: aliceblue; border-radius: 10px;">
+                        <div class="pro-box-mid">
+                            
+                            <div class="pro-img"  onclick="showModal(event,'oc6')"><a href="#"><img src="images/OcQue/Dua.jpg" alt="sctc" /></a></div>
+                            <div class="pro-title"  onclick="showModal(event,'oc6')">Ốc Quế Sữa Chua Dứa</div>
+                            <div class="price" >15.000đ</div>
+                            <div class="pro-cart">
+                                <a href="#"><button ><img src="images/layout/cart.gif" width="10" height="10" /> Thêm vào giỏ</a></button>
+                            </div>                             
+                            <div style="clear:both"></div>
+                        </div>
+                        <div class="pro-box-bot"  onclick="showModal(event,'oc6')"></div>
+                    </div>    
+                    
+                    <div id="oc6" class="modal">
+                        <div class="modal-content">
+                            <span class="close" onclick="closeModal(event,'oc6')">×</span>
+                            <div><img class="product-image" src="images/OcQue/Dua.jpg" alt=""></div>
+                          <div class="product-details">
+                            <h2 style="color: #3498db;">Ốc Quế Sữa Chua Dứa</h2>
+                            <div class="price2" >Giá: <span>15.000đ</span></div><br>
+                            <ul > 
+                                <li>Thành phần: Ốc Quế + Sữa Chua Dứa </li>
+                                <li>Trọng lượng sản phẩm: 50gr</li>
+                                <li>Sữa Chua Trân Châu Hạ Long là đặc sản đến từ Hạ Long. Kể từ khi thành lập chuỗi cửa hàng Sữa chua trân châu Hạ Long đã có hơn 200 cửa hàng trên khắp các tỉnh thành Việt Nam và con số này vẫn tiếp tực tăng trưởng không ngừng. Chúng tôi đang nỗ lực phát triển, để Sữa Chua Trân Châu Hạ Long có thể trở nên phổ biến hơn với khách hàng trên mảnh đất Việt Nam và trở thành một món ăn thú vị đối với khách hàng trên thế giới và mang trong mình sứ mệnh mang món ăn của dân tộc đến khắp nơi trên thế giới.</li>
+                               
+                            </ul>
+                         <label for="quantity" style="font-weight: bold;margin: 10px;">Số lượng:</label>
+                          <input type="number" id="quantity" name="quantity" min="1" max="100">
+                          <div class="pro-cart2">
+                            <button >Thêm vào giỏ hàng</button>
+                          </div>                         
+                          </div>
+                        </div>
+                        </div>
+        
+                    <div class="product-box" style="background-color: aliceblue; border-radius: 10px;">
+                        <div class="pro-box-mid">
+                            
+                            <div class="pro-img"  onclick="showModal(event,'oc7')"><a href="#"><img src="images/OcQue/chanhleo.jpg" alt="sctc" /></a></div>
+                            <div class="pro-title"  onclick="showModal(event,'oc7')">Ốc Quế Sữa Chua Chanh Leo</div>
+                            <div class="price" >15.000đ</div>
+                            <div class="pro-cart">
+                                <a href="#"><button ><img src="images/layout/cart.gif" width="10" height="10" /> Thêm vào giỏ</a></button>
+                            </div>                            
+                             <div style="clear:both"></div>
+                        </div>
+                        <div class="pro-box-bot"  onclick="showModal(event,'oc7')"></div>
+                    </div>    
+                    
+                    <div id="oc7" class="modal">
+                        <div class="modal-content">
+                            <span class="close" onclick="closeModal(event,'oc7')">×</span>
+                            <div><img class="product-image" src="images/OcQue/chanhleo.jpg" alt=""></div>
+                          <div class="product-details">
+                            <h2 style="color: #3498db;">Ốc Quế Sữa Chua Chanh Leo</h2>
+                            <div class="price2" >Giá: <span>15.000đ</span></div><br>
+                            <ul > 
+                                <li>Thành phần: Ốc Quế + Sữa Chua Chanh Leo </li>
+                                <li>Trọng lượng sản phẩm: 50gr</li>
+                                <li>Sữa Chua Trân Châu Hạ Long là đặc sản đến từ Hạ Long. Kể từ khi thành lập chuỗi cửa hàng Sữa chua trân châu Hạ Long đã có hơn 200 cửa hàng trên khắp các tỉnh thành Việt Nam và con số này vẫn tiếp tực tăng trưởng không ngừng. Chúng tôi đang nỗ lực phát triển, để Sữa Chua Trân Châu Hạ Long có thể trở nên phổ biến hơn với khách hàng trên mảnh đất Việt Nam và trở thành một món ăn thú vị đối với khách hàng trên thế giới và mang trong mình sứ mệnh mang món ăn của dân tộc đến khắp nơi trên thế giới.</li>
+                               
+                            </ul>
+                         <label for="quantity" style="font-weight: bold;margin: 10px;">Số lượng:</label>
+                          <input type="number" id="quantity" name="quantity" min="1" max="100">
+                          <div class="pro-cart2">
+                            <button >Thêm vào giỏ hàng</button>
+                          </div>                         
+                          </div>
+                        </div>
+                        </div>
+                    
+                    <div class="product-box" style="background-color: aliceblue; border-radius: 10px;">
+                        <div class="pro-box-mid">
+                            
+                            <div class="pro-img"  onclick="showModal(event,'oc8')"><a href="#"><img src="images/OcQue/saurieng.jpg" alt="sctc" /></a></div>
+                            <div class="pro-title"  onclick="showModal(event,'oc8')">Ốc Quế Sữa Chua Sầu Riêng</div>
+                            <div class="price" >15.000đ</div>
+                            <div class="pro-cart">
+                                <a href="#"><button ><img src="images/layout/cart.gif" width="10" height="10" /> Thêm vào giỏ</a></button>
+                            </div>                             
+                            <div style="clear:both"></div>
+                        </div>
+                        <div class="pro-box-bot"  onclick="showModal(event,'oc8')"></div>
+                    </div>    
+
+                    <div id="oc8" class="modal">
+                        <div class="modal-content">
+                            <span class="close" onclick="closeModal(event,'oc8')">×</span>
+                            <div><img class="product-image" src="images/OcQue/saurieng.jpg" alt=""></div>
+                          <div class="product-details">
+                            <h2 style="color: #3498db;">Ốc Quế Sữa Chua Sầu Riêng</h2>
+                            <div class="price2" >Giá: <span>15.000đ</span></div><br>
+                            <ul > 
+                                <li>Thành phần: Ốc Quế + Sữa Chua Sầu Riêng </li>
+                                <li>Trọng lượng sản phẩm: 50gr</li>
+                                <li>Sữa Chua Trân Châu Hạ Long là đặc sản đến từ Hạ Long. Kể từ khi thành lập chuỗi cửa hàng Sữa chua trân châu Hạ Long đã có hơn 200 cửa hàng trên khắp các tỉnh thành Việt Nam và con số này vẫn tiếp tực tăng trưởng không ngừng. Chúng tôi đang nỗ lực phát triển, để Sữa Chua Trân Châu Hạ Long có thể trở nên phổ biến hơn với khách hàng trên mảnh đất Việt Nam và trở thành một món ăn thú vị đối với khách hàng trên thế giới và mang trong mình sứ mệnh mang món ăn của dân tộc đến khắp nơi trên thế giới.</li>
+                               
+                            </ul>
+                         <label for="quantity" style="font-weight: bold;margin: 10px;">Số lượng:</label>
+                          <input type="number" id="quantity" name="quantity" min="1" max="100">
+                          <div class="pro-cart2">
+                            <button >Thêm vào giỏ hàng</button>
+                          </div>                        
+                          </div>
+                        </div>
+                        </div>
+        
+                    <div class="product-box" style="background-color: aliceblue; border-radius: 10px;">
+                        <div class="pro-box-mid">
+                            
+                            <div class="pro-img"  onclick="showModal(event,'oc9')"><a href="#"><img src="images/OcQue/choco.jpg" alt="sctc" /></a></div>
+                            <div class="pro-title"  onclick="showModal(event,'oc9')">Ốc Quế Sữa Chua Chocomint</div>
+                            <div class="price" >15.000đ</div>
+                            <div class="pro-cart">
+                                <a href="#"><button ><img src="images/layout/cart.gif" width="10" height="10" /> Thêm vào giỏ</a></button>
+                            </div>                             
+                            <div style="clear:both"></div>
+                        </div>
+                        <div class="pro-box-bot"  onclick="showModal(event,'oc9')"></div>
+                    </div>  
+                    
+                    <div id="oc9" class="modal">
+                        <div class="modal-content">
+                            <span class="close" onclick="closeModal(event,'oc9')">×</span>
+                            <div><img class="product-image" src="images/OcQue/choco.jpg" alt=""></div>
+                          <div class="product-details">
+                            <h2 style="color: #3498db;">Ốc Quế Sữa Chua Chocomint</h2>
+                            <div class="price2" >Giá: <span>15.000đ</span></div><br>
+                            <ul > 
+                                <li>Thành phần: Ốc Quế + Sữa Chua Chocomint</li>
+                                <li>Trọng lượng sản phẩm: 50gr</li>
+                                <li>Sữa Chua Trân Châu Hạ Long là đặc sản đến từ Hạ Long. Kể từ khi thành lập chuỗi cửa hàng Sữa chua trân châu Hạ Long đã có hơn 200 cửa hàng trên khắp các tỉnh thành Việt Nam và con số này vẫn tiếp tực tăng trưởng không ngừng. Chúng tôi đang nỗ lực phát triển, để Sữa Chua Trân Châu Hạ Long có thể trở nên phổ biến hơn với khách hàng trên mảnh đất Việt Nam và trở thành một món ăn thú vị đối với khách hàng trên thế giới và mang trong mình sứ mệnh mang món ăn của dân tộc đến khắp nơi trên thế giới.</li>
+                               
+                            </ul>
+                         <label for="quantity" style="font-weight: bold;margin: 10px;">Số lượng:</label>
+                          <input type="number" id="quantity" name="quantity" min="1" max="100">
+                          <div class="pro-cart2">
+                            <button >Thêm vào giỏ hàng</button>
+                          </div>                       
+                          </div>
+                        </div>
+                        </div>
+        
+                    <div class="product-box" style="background-color: aliceblue; border-radius: 10px;">
+                        <div class="pro-box-mid">
+                            
+                            <div class="pro-img" onclick="showModal(event,'oc10')"><a href="#"><img src="images/OcQue/Cafe.jpg" alt="sctc" /></a></div>
+                            <div class="pro-title" onclick="showModal(event,'oc10')">Ốc Quế Sữa Chua Cà Phê</div>
+                            <div class="price" >15.000đ</div>
+                            <div class="pro-cart">
+                                <a href="#"><button ><img src="images/layout/cart.gif" width="10" height="10" /> Thêm vào giỏ</a></button>
+                            </div>                             
+                            <div style="clear:both"></div>
+                        </div>
+                        <div class="pro-box-bot" onclick="showModal(event,'oc10')"></div>
+                    </div>    
+                    <div id="oc10" class="modal">
+                        <div class="modal-content">
+                            <span class="close" onclick="closeModal(event,'oc10')">×</span>
+                            <div><img class="product-image" src="images/OcQue/Cafe.jpg" alt=""></div>
+                          <div class="product-details">                 
+                            <h2 style="color: #3498db;">Ốc Quế Sữa Chua Cà Phê</h2>
+                            <div class="price2" >Giá: <span>15.000đ</span></div><br>
+                            <ul > 
+                                <li>Thành phần: Ốc Quế + Sữa Chua Cà Phê </li>
+                                <li>Trọng lượng sản phẩm: 50gr</li>
+                                <li>Sữa Chua Trân Châu Hạ Long là đặc sản đến từ Hạ Long. Kể từ khi thành lập chuỗi cửa hàng Sữa chua trân châu Hạ Long đã có hơn 200 cửa hàng trên khắp các tỉnh thành Việt Nam và con số này vẫn tiếp tực tăng trưởng không ngừng. Chúng tôi đang nỗ lực phát triển, để Sữa Chua Trân Châu Hạ Long có thể trở nên phổ biến hơn với khách hàng trên mảnh đất Việt Nam và trở thành một món ăn thú vị đối với khách hàng trên thế giới và mang trong mình sứ mệnh mang món ăn của dân tộc đến khắp nơi trên thế giới.</li>
+                               
+                            </ul>
+                         <label for="quantity" style="font-weight: bold;margin: 10px;">Số lượng:</label>
+                          <input type="number" id="quantity" name="quantity" min="1" max="100">
+                          <div class="pro-cart2">
+                            <button >Thêm vào giỏ hàng</button>
+                          </div>                       
+                          </div>
+                        </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+
+        <section class="footer">
+            <div class="box">
+                <img src="images/logo.png" alt="">
+                <p>Cung cấp sản phẩm với chất lượng 
+                    <br>an toàn cho quý khách</p>
+            </div>
+            <div class="box">
+                <h2 >NỘI DUNG</h2>
+                <li><a href="index.html">Trang Chủ</a></li>
+                <li><a href="Trang1SC.html">Danh Mục</a></li>
+                <li><a href="gioithieu.html">Giới Thiệu</a></li>
+                <li><a href="lienhe.html">Liên Hệ</a></li>
+            </div>
+            <div class="box">
+                <h2>LIÊN HỆ</h2>
+                <form action="">
+                    
+                   <li><i class="fa-solid fa-location-dot"></i>  S1-3-5 Đường Hoàng Quốc Việt, Quận 7</li>
+                   <li><i class="fa-solid fa-phone"></i>   0123456789</li>
+                   <li><i class="fa-solid fa-square-envelope"></i> sctchl@gmail.com</li>
+                   <li><i class="fa-brands fa-facebook"></i><i class="fa-brands fa-instagram"></i><i class="fa-brands fa-twitter"></i><i class="fa-brands fa-tiktok"></i></li>
+                   <input type="text" placeholder="Địa chỉ email">
+                    <button>Gửi</button>
+                </form>
+            </div>
+        </section>
+
+        <section class="cart">
+            <i class="fa-solid fa-circle-xmark"></i>
+            <h2>Giỏ Hàng</h2>
+            <form action="" method="">
+                <table>
+                    <thead>
+                        <tr>
+                            <th >Sản Phẩm</th>
+                            <th>Giá</th>
+                            <th>SL</th>
+                            <th>Chọn</th>
+                        </tr>
+                    </thead>
+                    <tbody >
+                        
+                    </tbody>
+                </table>
+                <div style="text-align: right;" class="price-total">
+                    <p style="font-weight: bold;">Tổng tiền: <span>0</span>đ</p>
+                </div>
+                <!-- Thêm nút "Đặt Hàng" -->
+                <button>Đặt Hàng</button>
+            </form>
+        
+        </section>
+        <script src="scripts/sanpham.js"></script>
+        <script src="scripts/cart.js"></script>
+</body>
+</html>
